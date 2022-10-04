@@ -1,1 +1,17 @@
+### Test all expressions
 GET http://localhost:4001/expressions
+
+### Test single expression
+GET http://localhost:4001/expressions/3
+
+### Test error
+GET http://localhost:4001/expressions/3345
+
+### Update element
+GET http://localhost:4001/expressions
+
+###
+PUT http://localhost:4001/expressions/1?emoji=🤓&name=glasses
+
+### Create new expression
+POST http://localhost:4001/expressions/?emoji=🤓&name=glasses
