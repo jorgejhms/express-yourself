@@ -15,3 +15,6 @@ PUT http://localhost:4001/expressions/1?emoji=🤓&name=glasses
 
 ### Create new expression
 POST http://localhost:4001/expressions/?emoji=🤓&name=glasses
+
+### Delete an expression
+DELETE http://localhost:4001/expressions/1
